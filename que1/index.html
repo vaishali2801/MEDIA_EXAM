@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+   <header>
+           <div class="box p-3">
+            <div class="w-1 d-flex j-c-s-b h-7-1 a-i-c ">
+               
+                <div class="logo ">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div>
+                    <button class="menu menu-md"><i class="ri-menu-3-line"></i></button>
+                </div>
+             
+                <div class="nav d-flex a-i-c gap-10">
+                        <a href="#first" class="home">HOME</a>
+                        <a href="#second">SERVICES</a>
+                        <a href="#third">PRODUCT</a>
+                        <a href="#section">WATCHES</a>
+                        <a href="#four">SALE</a>
+                        <a href="#five">BLOG</a>
+                     <a href="#sixth">
+                        <select name="pages" id="">
+                            <option value="">PAGES</option>
+                            <option value="">ABOUT</option>
+                            <option value="">BLOG</option>
+                            <option value="">SHOP</option>
+                            <option value="">CART</option>
+                            <option value="">CHECKOUT</option>
+                            <option value="">SINGLE POST</option>
+                            <option value="">SINGLE PRODUCT</option>
+                            <option value="">CONTACT</option>
+                         </select>
+                     </a>
+                        <i class="ri-search-line icon"></i>
+                        <i class="ri-user-fill icon"></i>
+                        <i class="ri-shopping-cart-2-fill icon"></i>
+                </div>
+                 
+          
+    
+            </div>
+           </div>
+   </header>
+</body>
+<script>
+    $(".menu").click(function(){
+        $(".nav").toggle("2000")
+    })
+</script>
+</html>
